@@ -14,7 +14,7 @@ const Value = () => {
 	};
 
 	useEffect(() => {
-		Axios.get(URL).then(res => {
+		Axios.post(URL, { startData: '2020-09-15', }).then(res => {
 			const { data: { results: { common, juso } } } = res;
 			setJuso(juso);
 		})
