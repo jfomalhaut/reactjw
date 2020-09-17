@@ -1,0 +1,9 @@
+[react]
+npm i react react-dom react-router-dom
+
+[babel]
+npm i babel-loader @babel/core 
+@babel/preset-env @babel/preset-react
+
+[webpack]
+npm i webpack webpack-cli webpack-dev-server

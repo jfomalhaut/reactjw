@@ -1,0 +1,10 @@
+1. history
+	- 보낼 때
+	- window.location.href = ??
+
+2. location
+	- 현재의 위치를 찾을 때
+	- window.location
+
+3. match
+	- 받을 때
